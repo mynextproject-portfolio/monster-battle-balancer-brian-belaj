@@ -6,7 +6,7 @@ from screens.cards_screen import cards_screen
 from translations import translate
 
 # Mutable state: allows the language to be changed at runtime
-app_state = {"lang": "en"}
+app_state = {"lang": "jp"}
 
 def make_t(state: dict):
     """Return a translation function bound to the current language in state."""
